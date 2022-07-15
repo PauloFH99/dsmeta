@@ -1,7 +1,7 @@
-import Header from "./components/Header";
-import SalesCard from "./components/SalesCard";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Header from "./components/Header";
+import SalesCard from "./components/SalesCard";
 
 function App() {
   return (
@@ -16,7 +16,7 @@ function App() {
         </section>
       </main>
     </>
-  )
+  );
 }
 
 export default App;
